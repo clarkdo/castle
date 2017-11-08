@@ -1,0 +1,10 @@
+{
+  "home": {
+    "title": "欢迎",
+    "introduction": "这是一则中文介绍."
+  },
+  "about": {
+    "title": "关于",
+    "introduction": "此页面为你提供更多信息."
+  }
+}

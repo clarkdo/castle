@@ -16,6 +16,19 @@ module.exports = {
     ]
   },
   /*
+  ** Router
+  */
+  router: {
+    middleware: 'i18n'
+  },
+  /*
+  ** Plugins
+  */
+  plugins: [
+    // Will inject the plugin in the $root app and also in the context as `i18n`
+    { src: '~plugins/i18n.js', injectAs: 'i18n' }
+  ],
+  /*
   ** Customize the progress-bar color
   */
   loading: { color: '#3B8070' },
@@ -36,8 +49,6 @@ module.exports = {
     // 文档: https://github.com/nuxt-community/axios-module
     '@nuxtjs/axios'
   ],
-
-  // 文档
   axios: {
     // proxyHeaders: false
   }
