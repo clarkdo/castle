@@ -21,6 +21,7 @@
     "es6-promise": "^4.1.1",
     "express": "^4.15.3",
     "nuxt": "^1.0.0-rc11",
+    "nuxt-class-component": "^1.0.4",
     "vue-i18n": "^7.3.2"
   },
   "devDependencies": {
