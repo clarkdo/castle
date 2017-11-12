@@ -41,6 +41,9 @@ module.exports = {
     */
     extend (config, ctx) {
       // ...
+    },
+    babel: {
+      plugins: ['transform-decorators-legacy', 'transform-class-properties']
     }
   },
   modules: [
